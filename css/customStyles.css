@@ -1,0 +1,35 @@
+#pictures-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#pictures-popup img {
+  width: 30rem;
+  border-radius: 25px;
+}
+
+.close-button {
+  cursor: pointer;
+  display: flex;
+  background-color: #ffcc2e;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  width: 90%;
+  height: 3rem;
+  border-radius: 25px;
+}
+.grid-item {
+  cursor: pointer;
+}
